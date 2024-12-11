@@ -1,0 +1,1 @@
+This issue is about an uncommon error in Tailwind CSS where the `@apply` directive doesn't work as expected when used within a component's `@layer` directive. This can lead to unexpected styles not being applied, or styles being applied incorrectly.
