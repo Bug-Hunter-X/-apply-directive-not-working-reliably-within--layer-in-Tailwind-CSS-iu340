@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+/* Instead of relying solely on @apply within the @layer, we can define reusable style blocks. This approach ensures consistent style application across components. */
+
+@layer components {
+  .custom-style {
+    @apply bg-blue-500 text-white p-4 rounded;
+  }
+}
+
+/* In this example, we use a custom class named custom-style to apply our styles.This method offers greater clarity and maintainability, compared to direct application of @apply inside a layer. */
+
+/* Example usage: */
+/*.custom-style */
